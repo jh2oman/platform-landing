@@ -1,8 +1,30 @@
-var demoApp = angular.module('demoApp', []);
+$(document).ready(function(){
+  $('.testemonies').slick({
+  	autoplay:true,
+  	dots:true,
+  	arrows:true
+  });
+});
 
-// demoApp.controller('demoController', ['$scope', '$http', function($scope, $http) {
-//   $http.get('public/data/cs498rk.json').success(function(data) {
-//     $scope.courseInfo = data;
-//     $scope.artistOrder = 'name';
-//   });
-// }]);
+    var width = $(window).width(); 
+
+if(width<640){
+	$('.centered').addClass("panel");
+}
+
+
+//smooth scrolling
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
