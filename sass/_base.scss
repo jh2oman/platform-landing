@@ -52,8 +52,11 @@ body{
   text-align: center;
 }
 .slogan{
-  margin: 0 auto;
+  @media only screen and (min-width: 30.063em) {
+    margin: 0 auto;
   width:400px;
+  }
+  
   color:$steel;
 }
 #pre-register{
@@ -130,6 +133,26 @@ body{
   bottom:-50px;
   z-index: 100;
 }
+.fieldDesc{
+  text-align: left;
+}
+#title{
+  height:190px;
+}
+.description-share{
+  margin-bottom: 10px;
+}
+.signupForNewsletter{
+  text-align: left;
+}
+input[type=submit] {
+  padding:5px 15px; 
+  background:$red;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
 .footer{
   margin-top: -5px;
   height:60px;
@@ -141,7 +164,9 @@ body{
   color:white;
 
 }
-
+#subscribeModal label{
+  text-align: left;
+}
 
 .hvr-float {
   display: inline-block;
