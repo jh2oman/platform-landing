@@ -2,7 +2,8 @@ $(document).ready(function(){
   $('.testemonies').slick({
   	autoplay:true,
   	dots:true,
-  	arrows:true
+  	arrows:true,
+    speed: 5000
   });
 });
 
