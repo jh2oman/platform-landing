@@ -16,7 +16,7 @@ if(width<640){
 
 //smooth scrolling
 $(function() {
-  if ($(window).width() < 640) {
+  if ($(window).width() > 640) {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
