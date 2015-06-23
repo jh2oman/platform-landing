@@ -92,7 +92,7 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-
+$openSans:"Open Sans";
 // We use these to define default font weights
 // $font-weight-normal: normal;
 // $font-weight-bold: bold;
@@ -130,7 +130,7 @@ $trans: rgba(0, 0, 0, .3);
 // We use these to control various global styles
  $body-bg: $white;
 // $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+ $body-font-family: $openSans;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
