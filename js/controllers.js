@@ -3,7 +3,7 @@ $(document).ready(function(){
   	autoplay:true,
   	dots:true,
   	arrows:true,
-    speed: 5000
+    speed: 15000
   });
 });
 
@@ -16,7 +16,7 @@ if(width<640){
 
 //smooth scrolling
 $(function() {
-  if ($(window).width() > 640) {
+  if ($(window).width() > 1000) {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
