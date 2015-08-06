@@ -183,7 +183,7 @@ body {
 
 /* line 113, ../../sass/_base.scss */
 .testemonies-wrap {
-  background: url(https://download.unsplash.com/reserve/ZF75d1lhQ0SyLWYEGOqO_21_forest_mountains.jpg) no-repeat;
+  background: url(./data/images/mountain-l.jpg) no-repeat;
   width: 100%;
   height: 60%;
   background-size: cover;
