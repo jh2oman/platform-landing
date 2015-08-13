@@ -17,5 +17,8 @@
     "grunt-express-server": "latest",
     "matchdep": "latest",
     "yelp": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.0.3"
   }
 }
